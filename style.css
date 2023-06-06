@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap: 30px;
+}
+
+.search{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+
+}
+#pokedex{
+    width: 100vw;
+    height: 90vh;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top: 30px;
+    gap: 10px;
+}
